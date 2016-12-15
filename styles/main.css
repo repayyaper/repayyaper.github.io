@@ -1,0 +1,20 @@
+.container {
+    display: block;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    height: 4pc;
+    width: 3pc;
+    top: 50%;
+}
+
+.line {
+    background-color: beige;
+    width: 1pc;
+    height: 2pc;
+    position: 
+}
+
+.line.left {
+    transform: rotate(-45deg);
+}
