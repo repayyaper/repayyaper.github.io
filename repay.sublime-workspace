@@ -4,6 +4,78 @@
 		"selected_items":
 		[
 			[
+				"border-bott",
+				"border-bottom"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"st",
+				"styles"
+			],
+			[
+				"x",
+				"xx-small"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"s",
+				"soundcloud"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"bo",
+				"border-top"
+			],
+			[
+				"al",
+				"align-content"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
 				"ma",
 				"max-height"
 			],
@@ -24,14 +96,6 @@
 				"ul\tTag"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
-				"ba",
-				"background-position"
-			],
-			[
 				"bac",
 				"background-position"
 			],
@@ -42,10 +106,6 @@
 			[
 				"wi",
 				"width"
-			],
-			[
-				"s",
-				"styles"
 			],
 			[
 				"in",
@@ -72,10 +132,6 @@
 				"on-campus-collapse-control"
 			],
 			[
-				"col",
-				"col-md-3"
-			],
-			[
 				"text-",
 				"text-align"
 			],
@@ -92,12 +148,39 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "splash-page.html",
 			"settings":
 			{
-				"buffer_size": 218,
+				"buffer_size": 2586,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "styles/soundcloud.css",
+			"settings":
+			{
+				"buffer_size": 2962,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "styles/splash.css",
+			"settings":
+			{
+				"buffer_size": 1130,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/sc-player.js",
+			"settings":
+			{
+				"buffer_size": 26686,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -131,8 +214,23 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/Marcus/Documents/Websites/repayyaper",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/img",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/js",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/styles"
+	],
 	"file_history":
 	[
+		"/C/Users/Marcus/Documents/Websites/repayyaper/css/sc-player-standard/standards.css",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/js/sc-player.js",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/examples/sc-player-standard.html",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/css/sc-player-standard/colors-green.css",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/styles/splash.css",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/styles/main.css",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/index.html",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/styles/splash",
 		"/C/Users/Marcus/Documents/Websites/the-odin-project/google-homepage/images/googlelogo_color_160x56dp.png",
 		"/C/Users/Marcus/Documents/Websites/the-odin-project/google-homepage/styles/reset.css",
 		"/C/Users/Marcus/Documents/Websites/the-odin-project/google-homepage/styles/main.css",
@@ -184,7 +282,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -199,6 +297,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"random",
+			"sc-info",
+			"sc-play",
+			"play-green.png",
+			"img",
+			"opts.r",
+			"shuff",
+			"sort",
+			".add",
+			"[0]",
+			"[]",
+			"[0]",
+			"first",
+			"set",
+			"start",
+			"sc-",
+			"next",
+			"audio",
+			"sc-player-engine",
+			"sc-pl",
+			"auto",
 			"<a href=\"mailto:name@email.com\">info@university.com</a> <a href=\"mailto:name@email.com\">support@university.com</a>",
 			"+1 505-753-5656 <br> +1 505-753-4437",
 			"195 Cooks Mine Road Espanola, NM 87532",
@@ -331,30 +450,120 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "splash-page.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 218,
+						"buffer_size": 2586,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								185,
-								185
+								334,
+								334
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "styles/soundcloud.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2225,
+								2225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1625.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "styles/splash.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								787,
+								787
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 418.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/sc-player.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22900,
+								22900
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 8848.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

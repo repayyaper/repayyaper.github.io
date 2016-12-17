@@ -1,0 +1,89 @@
+body {
+	font-family:Helvetica, Arial, sans-serif;
+	height: 100%;
+	width: 100%;
+
+}
+
+#container {
+    text-align: center;
+    padding-top: 1em;
+    width: 480px;
+    margin: auto;
+}
+
+.header h1 {
+    font-size: 7em;
+}
+
+.members {
+    font-size: 2em;
+    text-transform: lowercase;
+}
+
+.footer {
+	bottom: 10px;
+	position: absolute;
+	font-size: xx-small;
+	text-align: center;
+	width: inherit;
+
+}
+
+@media only screen and (max-height: 480px) {
+	.footer {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#container {
+		width:100%;
+	}
+}
+
+div.links, ul.links {
+	list-style-type: none;
+	display: block;
+	height: 0px;
+	opacity: 0;
+	transition: all .5s ease;
+	overflow: hidden;
+
+}
+
+
+div.links:target, ul.links:target {
+	height: auto;
+	width: auto;
+	opacity: 1;
+	padding: 10px 0 10px 0;
+	margin: 5px 0 5px 0;
+	border-style: dashed;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+
+
+
+
+ul.links li {
+	display: inline-block;
+}
+
+.links span, .footer span {
+	margin:0 5px 0 5px; 
+}
+
+.header h1 a {
+	color:black;
+}
+
+a {
+	text-decoration: none;
+}
+
+.links a, .links a:visited, .content a, .content a:visited {
+	color: grey;
+}
+
