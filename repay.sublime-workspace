@@ -147,42 +147,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "splash-page.html",
-			"settings":
-			{
-				"buffer_size": 2586,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "styles/soundcloud.css",
-			"settings":
-			{
-				"buffer_size": 2962,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "styles/splash.css",
-			"settings":
-			{
-				"buffer_size": 1130,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/sc-player.js",
-			"settings":
-			{
-				"buffer_size": 26686,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -223,11 +187,13 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Marcus/Documents/Websites/repayyaper/css/sc-player-standard/standards.css",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/splash-page.html",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/styles/soundcloud.css",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/styles/splash.css",
 		"/C/Users/Marcus/Documents/Websites/repayyaper/js/sc-player.js",
+		"/C/Users/Marcus/Documents/Websites/repayyaper/css/sc-player-standard/standards.css",
 		"/C/Users/Marcus/Documents/Websites/repayyaper/examples/sc-player-standard.html",
 		"/C/Users/Marcus/Documents/Websites/repayyaper/css/sc-player-standard/colors-green.css",
-		"/C/Users/Marcus/Documents/Websites/repayyaper/styles/splash.css",
 		"/C/Users/Marcus/Documents/Websites/repayyaper/styles/main.css",
 		"/C/Users/Marcus/Documents/Websites/repayyaper/index.html",
 		"/C/Users/Marcus/Documents/Websites/repayyaper/styles/splash",
@@ -445,127 +411,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "splash-page.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2586,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								334,
-								334
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "styles/soundcloud.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2962,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2225,
-								2225
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1625.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "styles/splash.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1130,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								787,
-								787
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 418.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/sc-player.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26686,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22900,
-								22900
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 8848.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
