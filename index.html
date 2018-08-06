@@ -5,19 +5,50 @@
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116457804-1"></script>
 	<script>
+	/* Google Analytics */
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
 	  gtag('config', 'UA-116457804-1');
 	</script>
-	<link rel="stylesheet" type="text/css" href="styles/reset.css">
-	<link rel="stylesheet" type="text/css" href="styles/splash.css">
+	<link rel="stylesheet" type="text/css" href="styles/default.css">
+	<link rel="stylesheet" type="text/css" href="styles/component.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/1a05ff7497.css">
 	<link rel="stylesheet" href="styles/soundcloud.css" type="text/css">
+	<script src="js/modernizr.custom.js"></script>
 </head>
 <body>
 	<div id="container">
 		<a href="http://soundcloud.com/stickmanii/sets/station/s-dzZs2" class="sc-player">yaper x radio</a>
+		<div class="main">
+			<ul id="og-grid" class="og-grid">
+				<li>
+					<a href="https://www.schemeteam.academy/store/sky-chryme-compact-disc" data-largesrc="img/2018_sky_chryme.jpg" data-title="Sky Chryme" data-description="2018 work from Big Kahuna OG featuring production by Unlucky Bastards, Graymatter, Ohbliv, and more. The CD is on sale for $20.">
+						<img src="img/thumbs/2018_sky_chryme.jpg" alt="img01"/>
+					</a>
+				</li>
+				<li>
+					<a href="https://stickmanii.bandcamp.com/" data-largesrc="img/2017_universal_benefits.jpg" data-title="Universal Benefits" data-description="2017 work from Duce and God Goldin. The digital copy is available for free.">
+						<img src="img/thumbs/2017_universal_benefits.jpg" alt="img02"/>
+					</a>
+				</li>
+				<li>
+					<a href="https://fxckrxp.bandcamp.com/album/scooby-snax" data-largesrc="img/2017_scooby_snax.jpg" data-title="Scooby Snax" data-description="2017 work from Big Kahuna OG featuring production from Gray Matter.">
+						<img src="img/thumbs/2017_scooby_snax.jpg" alt="img03"/>
+					</a>
+				</li>
+				<li>
+					<a href="https://stickmanii.bandcamp.com/album/newgrounds-ii" data-largesrc="img/2017_negrounds_ii.jpg" data-title="Newgrounds II" data-description="2017 work featuring vocals and production from Duce.">
+						<img src="img/thumbs/2017_negrounds_ii.jpg" alt="img01"/>
+					</a>
+				</li>
+				<li>
+					<a href="http://cargocollective.com/jaimemartinez/" data-largesrc="img/2017_emergency_raps.jpg" data-title="Emergency Raps Vol. 1" data-description="2017 work featuring vocals from Big Kahuna OG and production by Tuamie.">
+						<img src="img/thumbs/2017_emergency_raps.jpg" alt="img02"/>
+					</a>
+				</li>
+			</ul>
+		</div>
 		<div class="header">
 			<h1><a href="#yaper">YAPER</a></h1>
 			<div class="links" id="yaper"><a href="mailto:yaperva@gmail.com"><span>Contact</span></a></div>
@@ -48,13 +79,15 @@
 					<li><a href="https://twitter.com/marsialago"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a></li>
 				</ul>
 		</div>
-		<div class="footer">
-			<i class="fa fa-wrench" aria-hidden="true"></i>
-		</div>
 	</div>
-	
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script type="text/javascript" src="js/soundcloud.player.api.js"></script>
-<script type="text/javascript" src="js/sc-player.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/soundcloud.player.api.js"></script>
+	<script type="text/javascript" src="js/sc-player.js"></script>
+	<script type="text/javascript" src="js/grid.js"></script>
+	<script>
+		$(function() {
+			Grid.init();
+		});
+	</script>
 </body>
 </html>

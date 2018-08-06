@@ -1,0 +1,170 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+html { height: 100%; }
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    background: #f9f9f9;
+    font-weight: 300;
+    font-size: 15px;
+    color: #333;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.container > header {
+	width: 90%;
+	max-width: 1240px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 30px 50px 30px;
+}
+
+.container > header {
+	padding: 60px 30px 50px;
+	text-align: center;
+}
+
+.container > header h1 {
+	font-size: 34px;
+	line-height: 38px;
+	margin: 0 auto;
+	font-weight: 700;
+	color: #333;
+}
+
+.container > header h1 span {
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.main > p {
+	text-align: center;
+	padding: 50px 20px;
+}
+
+
+
+
+
+/* Previous Default */
+body {
+	font-family:Helvetica, Arial, sans-serif;
+	height: 100%;
+	width: 100%;
+
+}
+
+#container {
+    text-align: center;
+    padding-top: 1em;
+    width: 960px;
+    margin: auto;
+}
+
+.header h1 {
+    font-size: 7em;
+}
+
+.members {
+    font-size: 2em;
+    text-transform: lowercase;
+}
+
+.footer {
+	bottom: 10px;
+	position: absolute;
+	font-size: xx-small;
+	text-align: center;
+	width: inherit;
+
+}
+
+@media only screen and (max-width: 960px) {
+	#container {
+		width:100%;
+	}
+}
+
+div.links, ul.links {
+	list-style-type: none;
+	display: block;
+	height: 0px;
+	opacity: 0;
+	transition: all .5s ease;
+	overflow: hidden;
+
+}
+
+
+div.links:target, ul.links:target {
+	height: auto;
+	width: auto;
+	opacity: 1;
+	padding: 10px 0 10px 0;
+	margin: 5px 0 5px 0;
+	border-style: dashed;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+
+
+
+
+ul.links li {
+	display: inline-block;
+}
+
+.links span, .footer span {
+	margin:0 5px 0 5px; 
+}
+
+.header h1 a {
+	color:black;
+}
+
+a {
+	text-decoration: none;
+}
+
+.links a, .links a:visited, .content a, .content a:visited {
+	color: grey;
+}
+
